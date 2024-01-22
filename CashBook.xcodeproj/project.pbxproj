@@ -16,6 +16,7 @@
 		C4DD56942B5EA64A0066D8A2 /* CashBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56932B5EA64A0066D8A2 /* CashBookUITestsLaunchTests.swift */; };
 		C4DD56A32B5EA8120066D8A2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56A22B5EA8120066D8A2 /* Home.swift */; };
 		C4DD56A52B5EAD440066D8A2 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56A42B5EAD440066D8A2 /* CustomTabBar.swift */; };
+		C4DD56A82B5F0F210066D8A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56A72B5F0F210066D8A2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C4DD56932B5EA64A0066D8A2 /* CashBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C4DD56A22B5EA8120066D8A2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C4DD56A42B5EAD440066D8A2 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		C4DD56A72B5F0F210066D8A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		C4DD56A02B5EA7D80066D8A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4DD56A62B5F0F120066D8A2 /* Extensions */,
 				C4DD56A12B5EA7EF0066D8A2 /* Home */,
 			);
 			path = Views;
@@ -147,6 +150,14 @@
 				C4DD56A42B5EAD440066D8A2 /* CustomTabBar.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		C4DD56A62B5F0F120066D8A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4DD56A72B5F0F210066D8A2 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DD56A82B5F0F210066D8A2 /* Extensions.swift in Sources */,
 				C4DD56A52B5EAD440066D8A2 /* CustomTabBar.swift in Sources */,
 				C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */,
 				C4DD56A32B5EA8120066D8A2 /* Home.swift in Sources */,
