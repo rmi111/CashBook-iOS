@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4198F2C2B631AB600A0DF76 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4198F2B2B631AB600A0DF76 /* DropDownView.swift */; };
 		C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */; };
 		C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56782B5EA6470066D8A2 /* ContentView.swift */; };
 		C4DD567B2B5EA6490066D8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DD567A2B5EA6490066D8A2 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4198F2B2B631AB600A0DF76 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		C4DD56732B5EA6470066D8A2 /* CashBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookApp.swift; sourceTree = "<group>"; };
 		C4DD56782B5EA6470066D8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4198F2A2B631AA400A0DF76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4198F2B2B631AB600A0DF76 /* DropDownView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C4DD566A2B5EA6470066D8A2 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		C4DD56752B5EA6470066D8A2 /* CashBook */ = {
 			isa = PBXGroup;
 			children = (
+				C4DD56A62B5F0F120066D8A2 /* Extensions */,
 				C4DD56A02B5EA7D80066D8A2 /* Views */,
 				C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */,
 				C4DD56782B5EA6470066D8A2 /* ContentView.swift */,
@@ -137,7 +148,7 @@
 		C4DD56A02B5EA7D80066D8A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C4DD56A62B5F0F120066D8A2 /* Extensions */,
+				C4198F2A2B631AA400A0DF76 /* Components */,
 				C4DD56A12B5EA7EF0066D8A2 /* Home */,
 			);
 			path = Views;
@@ -295,6 +306,7 @@
 				C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */,
 				C4DD56A32B5EA8120066D8A2 /* Home.swift in Sources */,
 				C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */,
+				C4198F2C2B631AB600A0DF76 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
