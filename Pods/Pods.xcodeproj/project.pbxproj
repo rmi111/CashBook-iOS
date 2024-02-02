@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FCA0B4AA1BA3F21FC776666816F9564 /* Pods-CashBook-CashBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 875FAF052EF52DE7BAA5F65D5D8EEEDB /* Pods-CashBook-CashBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A14DBCE97CAEC6C272FD069312C312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7DD0A668CBEDA38DC815E2C75C84F6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BA5DE7A2D201F978DBDC7C0B1BF76B3 /* Pods-CashBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B43FF38967DC1124CE74DC18D1D504 /* Pods-CashBook-dummy.m */; };
+		B9602D48014AD84BD9EC0910F5440C5C /* Pods-CashBook-CashBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 867E282F208FD2A925AC5DCD2BCF6B87 /* Pods-CashBook-CashBookUITests-dummy.m */; };
+		BEDECDBCE55C8C08937B22EB4485C4F1 /* Pods-CashBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8BF84EB2D4BAEF9190D2BCB8A1C254 /* Pods-CashBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1C3A6228BE956DF0E2B5CB9D668349C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D2CB00E5E0908D863F075D8196D2972E /* Pods-CashBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8F5A4AE523D8CCF9A3056B6ACC5492 /* Pods-CashBookTests-dummy.m */; };
+		FDFEBEC5627634E77C6F88E59791BF87 /* Pods-CashBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A97EB6E277D15A8E20A1D056C391ADF5 /* Pods-CashBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6334263E5874793C10F9C865BBC90CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500BE4FC397153F2E45CED2E0C317A5F;
+			remoteInfo = "Pods-CashBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02306E3D01A9C00631F8A91872354439 /* Pods-CashBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashBookTests.modulemap"; sourceTree = "<group>"; };
+		03979BA3952BCD2B98C675B7C3CBE33A /* Pods-CashBook-CashBookUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CashBook-CashBookUITests"; path = Pods_CashBook_CashBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0554B8D4738FD2788B521BEE58EB43ED /* Pods-CashBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBook-Info.plist"; sourceTree = "<group>"; };
+		176F4CBE2F9C099E08B42127357329AD /* Pods-CashBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2209B51485F26822D5CC08A366B3B4B6 /* Pods-CashBook-CashBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBook-CashBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		36B92C9B47C049DBD0D7B9258A6623BC /* Pods-CashBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBook.release.xcconfig"; sourceTree = "<group>"; };
+		373ECF4BEAD9C5187668E0C911A63233 /* Pods-CashBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashBook.modulemap"; sourceTree = "<group>"; };
+		40AACD94811EE3F5674F025D2B5FD56B /* Pods-CashBookTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBookTests-Info.plist"; sourceTree = "<group>"; };
+		5D18731470B9AECDD34FC794FA3EDBA4 /* Pods-CashBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7224488A48D72757074F3C5AAB553BDD /* Pods-CashBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		806BFAEB3EB4F5331C1E2B6BA3B47960 /* Pods-CashBook-CashBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBook-CashBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		867E282F208FD2A925AC5DCD2BCF6B87 /* Pods-CashBook-CashBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashBook-CashBookUITests-dummy.m"; sourceTree = "<group>"; };
+		875FAF052EF52DE7BAA5F65D5D8EEEDB /* Pods-CashBook-CashBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashBook-CashBookUITests-umbrella.h"; sourceTree = "<group>"; };
+		96B43FF38967DC1124CE74DC18D1D504 /* Pods-CashBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashBook-dummy.m"; sourceTree = "<group>"; };
+		99381D449F766201A622ECD33DC15FD9 /* Pods-CashBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFA55010CD7592FB21D6707ACD2C607 /* Pods-CashBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FAFE6E59A8ED027AB08DDE7CB172626 /* Pods-CashBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A598660FFC080942D3CE9BAF6FD41BF4 /* Pods-CashBook-CashBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashBook-CashBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A97EB6E277D15A8E20A1D056C391ADF5 /* Pods-CashBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashBookTests-umbrella.h"; sourceTree = "<group>"; };
+		CDF37F5ED0D2EAB1CC8E8EFF3745BF2C /* Pods-CashBook-CashBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBook-CashBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7459E92C3228D1D8A0B15C1A8996495 /* Pods-CashBook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CashBook"; path = Pods_CashBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8BF84EB2D4BAEF9190D2BCB8A1C254 /* Pods-CashBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashBook-umbrella.h"; sourceTree = "<group>"; };
+		E3BD396C977089F27F8549A4142D5674 /* Pods-CashBookTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CashBookTests"; path = Pods_CashBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E0B278A3A2F1A76F14DA57CEF6084C /* Pods-CashBook-CashBookUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashBook-CashBookUITests-Info.plist"; sourceTree = "<group>"; };
+		FB117AA20E611267AFD665670F82EE98 /* Pods-CashBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashBook.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8F5A4AE523D8CCF9A3056B6ACC5492 /* Pods-CashBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashBookTests-dummy.m"; sourceTree = "<group>"; };
+		FEB818A516F99F0403496C957D029763 /* Pods-CashBook-CashBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashBook-CashBookUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		470D8790FB2D7AA430A8993107D1CEDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C3A6228BE956DF0E2B5CB9D668349C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F979FA914A9B43045FB6B588601B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD0A668CBEDA38DC815E2C75C84F6FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC465EE0D1D95DEE607EFA4DEEB3D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A14DBCE97CAEC6C272FD069312C312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8A4F213496A0F9362DD7519E946BEB /* Pods-CashBook */ = {
+			isa = PBXGroup;
+			children = (
+				373ECF4BEAD9C5187668E0C911A63233 /* Pods-CashBook.modulemap */,
+				5D18731470B9AECDD34FC794FA3EDBA4 /* Pods-CashBook-acknowledgements.markdown */,
+				9DFA55010CD7592FB21D6707ACD2C607 /* Pods-CashBook-acknowledgements.plist */,
+				96B43FF38967DC1124CE74DC18D1D504 /* Pods-CashBook-dummy.m */,
+				0554B8D4738FD2788B521BEE58EB43ED /* Pods-CashBook-Info.plist */,
+				DC8BF84EB2D4BAEF9190D2BCB8A1C254 /* Pods-CashBook-umbrella.h */,
+				FB117AA20E611267AFD665670F82EE98 /* Pods-CashBook.debug.xcconfig */,
+				36B92C9B47C049DBD0D7B9258A6623BC /* Pods-CashBook.release.xcconfig */,
+			);
+			name = "Pods-CashBook";
+			path = "Target Support Files/Pods-CashBook";
+			sourceTree = "<group>";
+		};
+		5060F3A12EDE0D13A1F40AF148A00385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7459E92C3228D1D8A0B15C1A8996495 /* Pods-CashBook */,
+				03979BA3952BCD2B98C675B7C3CBE33A /* Pods-CashBook-CashBookUITests */,
+				E3BD396C977089F27F8549A4142D5674 /* Pods-CashBookTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87A18B652AAD0E3087A7712E1AC99993 /* Pods-CashBook-CashBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB818A516F99F0403496C957D029763 /* Pods-CashBook-CashBookUITests.modulemap */,
+				A598660FFC080942D3CE9BAF6FD41BF4 /* Pods-CashBook-CashBookUITests-acknowledgements.markdown */,
+				2209B51485F26822D5CC08A366B3B4B6 /* Pods-CashBook-CashBookUITests-acknowledgements.plist */,
+				867E282F208FD2A925AC5DCD2BCF6B87 /* Pods-CashBook-CashBookUITests-dummy.m */,
+				F1E0B278A3A2F1A76F14DA57CEF6084C /* Pods-CashBook-CashBookUITests-Info.plist */,
+				875FAF052EF52DE7BAA5F65D5D8EEEDB /* Pods-CashBook-CashBookUITests-umbrella.h */,
+				806BFAEB3EB4F5331C1E2B6BA3B47960 /* Pods-CashBook-CashBookUITests.debug.xcconfig */,
+				CDF37F5ED0D2EAB1CC8E8EFF3745BF2C /* Pods-CashBook-CashBookUITests.release.xcconfig */,
+			);
+			name = "Pods-CashBook-CashBookUITests";
+			path = "Target Support Files/Pods-CashBook-CashBookUITests";
+			sourceTree = "<group>";
+		};
+		AF0CECEB767548EB98E5C7CA04D4F6EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8A4F213496A0F9362DD7519E946BEB /* Pods-CashBook */,
+				87A18B652AAD0E3087A7712E1AC99993 /* Pods-CashBook-CashBookUITests */,
+				D898570DADF37903F6212FB8BF98ED2F /* Pods-CashBookTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5060F3A12EDE0D13A1F40AF148A00385 /* Products */,
+				AF0CECEB767548EB98E5C7CA04D4F6EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D898570DADF37903F6212FB8BF98ED2F /* Pods-CashBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				02306E3D01A9C00631F8A91872354439 /* Pods-CashBookTests.modulemap */,
+				9FAFE6E59A8ED027AB08DDE7CB172626 /* Pods-CashBookTests-acknowledgements.markdown */,
+				7224488A48D72757074F3C5AAB553BDD /* Pods-CashBookTests-acknowledgements.plist */,
+				FC8F5A4AE523D8CCF9A3056B6ACC5492 /* Pods-CashBookTests-dummy.m */,
+				40AACD94811EE3F5674F025D2B5FD56B /* Pods-CashBookTests-Info.plist */,
+				A97EB6E277D15A8E20A1D056C391ADF5 /* Pods-CashBookTests-umbrella.h */,
+				176F4CBE2F9C099E08B42127357329AD /* Pods-CashBookTests.debug.xcconfig */,
+				99381D449F766201A622ECD33DC15FD9 /* Pods-CashBookTests.release.xcconfig */,
+			);
+			name = "Pods-CashBookTests";
+			path = "Target Support Files/Pods-CashBookTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54C9987AF2B5CC488A0CECFAEB77D686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA0B4AA1BA3F21FC776666816F9564 /* Pods-CashBook-CashBookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3D37E8741EB0A54C4E0A4E28DD4BBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFEBEC5627634E77C6F88E59791BF87 /* Pods-CashBookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67B8BEBE53BD9666636477FCBFBD133 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDECDBCE55C8C08937B22EB4485C4F1 /* Pods-CashBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		500BE4FC397153F2E45CED2E0C317A5F /* Pods-CashBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA1CF5C7EADB20C696D3E8AA4241588 /* Build configuration list for PBXNativeTarget "Pods-CashBook" */;
+			buildPhases = (
+				F67B8BEBE53BD9666636477FCBFBD133 /* Headers */,
+				5222DBDC7B427C86E60331AB2B5DCCCD /* Sources */,
+				6EC465EE0D1D95DEE607EFA4DEEB3D20 /* Frameworks */,
+				6270B360D2E364C21B0353D0F90521CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CashBook";
+			productName = Pods_CashBook;
+			productReference = D7459E92C3228D1D8A0B15C1A8996495 /* Pods-CashBook */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CCD9CBEEF9FAB82976F049489A77624 /* Pods-CashBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684228A1732807578A56A7583458C7AC /* Build configuration list for PBXNativeTarget "Pods-CashBookTests" */;
+			buildPhases = (
+				AB3D37E8741EB0A54C4E0A4E28DD4BBD /* Headers */,
+				903D373442942CBDA604EFB5F235CE41 /* Sources */,
+				470D8790FB2D7AA430A8993107D1CEDD /* Frameworks */,
+				D614C702CF3381069CF5B282FCFF6D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0B4EEBD23A4A56E4AFEE749FCA94ED /* PBXTargetDependency */,
+			);
+			name = "Pods-CashBookTests";
+			productName = Pods_CashBookTests;
+			productReference = E3BD396C977089F27F8549A4142D5674 /* Pods-CashBookTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D40A06F13422CA5F2A126446B47654A /* Pods-CashBook-CashBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1736B1D63B445AC8D0FACE2CA7FF1C /* Build configuration list for PBXNativeTarget "Pods-CashBook-CashBookUITests" */;
+			buildPhases = (
+				54C9987AF2B5CC488A0CECFAEB77D686 /* Headers */,
+				1AA278684117F8E940B24E5B5F1AC5BF /* Sources */,
+				51F979FA914A9B43045FB6B588601B5C /* Frameworks */,
+				32D6E500A97C90B5277927910422B009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CashBook-CashBookUITests";
+			productName = Pods_CashBook_CashBookUITests;
+			productReference = 03979BA3952BCD2B98C675B7C3CBE33A /* Pods-CashBook-CashBookUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5060F3A12EDE0D13A1F40AF148A00385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500BE4FC397153F2E45CED2E0C317A5F /* Pods-CashBook */,
+				9D40A06F13422CA5F2A126446B47654A /* Pods-CashBook-CashBookUITests */,
+				9CCD9CBEEF9FAB82976F049489A77624 /* Pods-CashBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D6E500A97C90B5277927910422B009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6270B360D2E364C21B0353D0F90521CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D614C702CF3381069CF5B282FCFF6D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA278684117F8E940B24E5B5F1AC5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9602D48014AD84BD9EC0910F5440C5C /* Pods-CashBook-CashBookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222DBDC7B427C86E60331AB2B5DCCCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5DE7A2D201F978DBDC7C0B1BF76B3 /* Pods-CashBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903D373442942CBDA604EFB5F235CE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CB00E5E0908D863F075D8196D2972E /* Pods-CashBookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0B4EEBD23A4A56E4AFEE749FCA94ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CashBook";
+			target = 500BE4FC397153F2E45CED2E0C317A5F /* Pods-CashBook */;
+			targetProxy = 6334263E5874793C10F9C865BBC90CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		032E3AD7FD158F11D1ADED9EA016B304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99381D449F766201A622ECD33DC15FD9 /* Pods-CashBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBookTests/Pods-CashBookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBookTests/Pods-CashBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7776A52805B8521F224762F4AA651814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176F4CBE2F9C099E08B42127357329AD /* Pods-CashBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBookTests/Pods-CashBookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBookTests/Pods-CashBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A33CF94EC8D9825285AFC1911BD4B65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB117AA20E611267AFD665670F82EE98 /* Pods-CashBook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBook/Pods-CashBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBook/Pods-CashBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB649418474CCC9A7AB60303C9CD1DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B92C9B47C049DBD0D7B9258A6623BC /* Pods-CashBook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBook/Pods-CashBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBook/Pods-CashBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D363AEA110BE666BB38F79AF7AEBB9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806BFAEB3EB4F5331C1E2B6BA3B47960 /* Pods-CashBook-CashBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBook-CashBookUITests/Pods-CashBook-CashBookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBook-CashBookUITests/Pods-CashBook-CashBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0B2029D48C6D8B73EC93355FFFAEE7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF37F5ED0D2EAB1CC8E8EFF3745BF2C /* Pods-CashBook-CashBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashBook-CashBookUITests/Pods-CashBook-CashBookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashBook-CashBookUITests/Pods-CashBook-CashBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684228A1732807578A56A7583458C7AC /* Build configuration list for PBXNativeTarget "Pods-CashBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7776A52805B8521F224762F4AA651814 /* Debug */,
+				032E3AD7FD158F11D1ADED9EA016B304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA1CF5C7EADB20C696D3E8AA4241588 /* Build configuration list for PBXNativeTarget "Pods-CashBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33CF94EC8D9825285AFC1911BD4B65D /* Debug */,
+				CB649418474CCC9A7AB60303C9CD1DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1736B1D63B445AC8D0FACE2CA7FF1C /* Build configuration list for PBXNativeTarget "Pods-CashBook-CashBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363AEA110BE666BB38F79AF7AEBB9F3 /* Debug */,
+				E0B2029D48C6D8B73EC93355FFFAEE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

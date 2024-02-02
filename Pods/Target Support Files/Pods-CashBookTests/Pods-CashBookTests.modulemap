@@ -1,0 +1,6 @@
+framework module Pods_CashBookTests {
+  umbrella header "Pods-CashBookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
