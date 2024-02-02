@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var selectedTab: Tab = .house
     @State private var selection: String?
-    
+    @State var isShowingBottomSheet = false
     
     init(){
         UITabBar.appearance().isHidden = true
@@ -38,18 +38,31 @@ struct ContentView: View {
 //        }.ignoresSafeArea()
        
         NavigationStack{
-            VStack{
-                Button("Click"){
-                    
-                }
-                DropDownView(hint: "Select", options: ["Youtube", "Insta", "X", "Snap"],anchor:.bottom, selection: $selection)
-                
-                DropDownView(hint: "Select", options: ["Youtube", "Insta", "X", "Snap"],anchor:.top, selection: $selection)
-                
-                Button("Click"){
-                    
-                }
-            }
+//            VStack{
+//                Button("Click"){
+//                    
+//                }
+//                DropDownView(hint: "Select", options: ["Youtube", "Insta", "X", "Snap"],anchor:.bottom, selection: $selection)
+//                
+//                DropDownView(hint: "Select", options: ["Youtube", "Insta", "X", "Snap"],anchor:.top, selection: $selection)
+//                
+//                Button("Click"){
+//                    
+//                }
+//            }
+            
+            ZStack{
+                        
+                        Button{
+                            withAnimation{
+                                isShowingBottomSheet.toggle()
+                            }
+                        } label: {
+                            Text("Open Bottom Sheet")
+                        }
+                        
+                        BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
+                    }
         }
     }
 }

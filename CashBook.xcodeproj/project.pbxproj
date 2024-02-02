@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C4198F2C2B631AB600A0DF76 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4198F2B2B631AB600A0DF76 /* DropDownView.swift */; };
+		C4CDEBB92B6D1435005C6B6C /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBB82B6D1435005C6B6C /* BottomSheet.swift */; };
+		C4CDEBBB2B6D147C005C6B6C /* ButtonLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBBA2B6D147C005C6B6C /* ButtonLarge.swift */; };
+		C4CDEBBD2B6D150C005C6B6C /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBBC2B6D150C005C6B6C /* RoundedCorners.swift */; };
+		C4CDEBBF2B6D154B005C6B6C /* OnlineBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBBE2B6D154B005C6B6C /* OnlineBottomSheet.swift */; };
+		C4CDEBC12B6D156D005C6B6C /* OfflineBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */; };
 		C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */; };
 		C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56782B5EA6470066D8A2 /* ContentView.swift */; };
 		C4DD567B2B5EA6490066D8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DD567A2B5EA6490066D8A2 /* Assets.xcassets */; };
@@ -39,6 +44,11 @@
 
 /* Begin PBXFileReference section */
 		C4198F2B2B631AB600A0DF76 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		C4CDEBB82B6D1435005C6B6C /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		C4CDEBBA2B6D147C005C6B6C /* ButtonLarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLarge.swift; sourceTree = "<group>"; };
+		C4CDEBBC2B6D150C005C6B6C /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		C4CDEBBE2B6D154B005C6B6C /* OnlineBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBottomSheet.swift; sourceTree = "<group>"; };
+		C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineBottomSheet.swift; sourceTree = "<group>"; };
 		C4DD56732B5EA6470066D8A2 /* CashBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookApp.swift; sourceTree = "<group>"; };
 		C4DD56782B5EA6470066D8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				C4198F2B2B631AB600A0DF76 /* DropDownView.swift */,
+				C4CDEBB82B6D1435005C6B6C /* BottomSheet.swift */,
+				C4CDEBBA2B6D147C005C6B6C /* ButtonLarge.swift */,
+				C4CDEBBC2B6D150C005C6B6C /* RoundedCorners.swift */,
+				C4CDEBBE2B6D154B005C6B6C /* OnlineBottomSheet.swift */,
+				C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -303,10 +318,15 @@
 			files = (
 				C4DD56A82B5F0F210066D8A2 /* Extensions.swift in Sources */,
 				C4DD56A52B5EAD440066D8A2 /* CustomTabBar.swift in Sources */,
+				C4CDEBB92B6D1435005C6B6C /* BottomSheet.swift in Sources */,
+				C4CDEBBB2B6D147C005C6B6C /* ButtonLarge.swift in Sources */,
 				C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */,
 				C4DD56A32B5EA8120066D8A2 /* Home.swift in Sources */,
 				C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */,
+				C4CDEBBD2B6D150C005C6B6C /* RoundedCorners.swift in Sources */,
 				C4198F2C2B631AB600A0DF76 /* DropDownView.swift in Sources */,
+				C4CDEBC12B6D156D005C6B6C /* OfflineBottomSheet.swift in Sources */,
+				C4CDEBBF2B6D154B005C6B6C /* OnlineBottomSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
