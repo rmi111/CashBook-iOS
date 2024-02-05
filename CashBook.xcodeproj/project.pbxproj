@@ -16,11 +16,15 @@
 		C4CDEBBF2B6D154B005C6B6C /* OnlineBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBBE2B6D154B005C6B6C /* OnlineBottomSheet.swift */; };
 		C4CDEBC12B6D156D005C6B6C /* OfflineBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */; };
 		C4CDEBC32B6D230F005C6B6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4CDEBC22B6D230F005C6B6C /* GoogleService-Info.plist */; };
+		C4D0DBC32B715FD700AA5ADF /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0DBC22B715FD700AA5ADF /* CategoryViewModel.swift */; };
+		C4D0DBC52B71648900AA5ADF /* CategoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0DBC42B71648900AA5ADF /* CategoryListViewModel.swift */; };
+		C4D0DBC82B71662400AA5ADF /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D0DBC72B71662400AA5ADF /* CategoryListView.swift */; };
 		C4D1B0D12B6D2E9300B11032 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C4D1B0D02B6D2E9300B11032 /* FirebaseAnalytics */; };
 		C4D1B0D32B6D2E9300B11032 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C4D1B0D22B6D2E9300B11032 /* FirebaseAuth */; };
 		C4D1B0D52B6D2E9300B11032 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C4D1B0D42B6D2E9300B11032 /* FirebaseCrashlytics */; };
 		C4D1B0D72B6D2E9300B11032 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C4D1B0D62B6D2E9300B11032 /* FirebaseDatabase */; };
 		C4D1B0D92B6D2E9300B11032 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C4D1B0D82B6D2E9300B11032 /* FirebaseFirestore */; };
+		C4D1B0DC2B6DA0C300B11032 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1B0DB2B6DA0C300B11032 /* Category.swift */; };
 		C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */; };
 		C4DD56792B5EA6470066D8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD56782B5EA6470066D8A2 /* ContentView.swift */; };
 		C4DD567B2B5EA6490066D8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DD567A2B5EA6490066D8A2 /* Assets.xcassets */; };
@@ -66,6 +70,10 @@
 		C4CDEBBE2B6D154B005C6B6C /* OnlineBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBottomSheet.swift; sourceTree = "<group>"; };
 		C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineBottomSheet.swift; sourceTree = "<group>"; };
 		C4CDEBC22B6D230F005C6B6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4D0DBC22B715FD700AA5ADF /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		C4D0DBC42B71648900AA5ADF /* CategoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewModel.swift; sourceTree = "<group>"; };
+		C4D0DBC72B71662400AA5ADF /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		C4D1B0DB2B6DA0C300B11032 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C4DD56732B5EA6470066D8A2 /* CashBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DD56762B5EA6470066D8A2 /* CashBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookApp.swift; sourceTree = "<group>"; };
 		C4DD56782B5EA6470066D8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,7 +134,6 @@
 				9624EBF1BF8E1EB2F137301E /* Pods-CashBookTests.debug.xcconfig */,
 				E2A9AB223648F07E729FD6AD /* Pods-CashBookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,6 +148,31 @@
 				C4CDEBC02B6D156D005C6B6C /* OfflineBottomSheet.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C4D0DBC12B715FBF00AA5ADF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C4D0DBC22B715FD700AA5ADF /* CategoryViewModel.swift */,
+				C4D0DBC42B71648900AA5ADF /* CategoryListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C4D0DBC62B71661500AA5ADF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C4D0DBC72B71662400AA5ADF /* CategoryListView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C4D1B0DA2B6DA0B400B11032 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4D1B0DB2B6DA0C300B11032 /* Category.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C4DD566A2B5EA6470066D8A2 = {
@@ -168,6 +200,8 @@
 		C4DD56752B5EA6470066D8A2 /* CashBook */ = {
 			isa = PBXGroup;
 			children = (
+				C4D0DBC12B715FBF00AA5ADF /* ViewModels */,
+				C4D1B0DA2B6DA0B400B11032 /* Models */,
 				C4CDEBC22B6D230F005C6B6C /* GoogleService-Info.plist */,
 				C4DD56A62B5F0F120066D8A2 /* Extensions */,
 				C4DD56A02B5EA7D80066D8A2 /* Views */,
@@ -207,6 +241,7 @@
 		C4DD56A02B5EA7D80066D8A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4D0DBC62B71661500AA5ADF /* Category */,
 				C4198F2A2B631AA400A0DF76 /* Components */,
 				C4DD56A12B5EA7EF0066D8A2 /* Home */,
 			);
@@ -462,8 +497,12 @@
 				C4DD56772B5EA6470066D8A2 /* CashBookApp.swift in Sources */,
 				C4CDEBBD2B6D150C005C6B6C /* RoundedCorners.swift in Sources */,
 				C4198F2C2B631AB600A0DF76 /* DropDownView.swift in Sources */,
+				C4D0DBC82B71662400AA5ADF /* CategoryListView.swift in Sources */,
+				C4D0DBC32B715FD700AA5ADF /* CategoryViewModel.swift in Sources */,
+				C4D0DBC52B71648900AA5ADF /* CategoryListViewModel.swift in Sources */,
 				C4CDEBC12B6D156D005C6B6C /* OfflineBottomSheet.swift in Sources */,
 				C4CDEBBF2B6D154B005C6B6C /* OnlineBottomSheet.swift in Sources */,
+				C4D1B0DC2B6DA0C300B11032 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
