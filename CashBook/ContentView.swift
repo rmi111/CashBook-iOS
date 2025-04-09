@@ -51,18 +51,20 @@ struct ContentView: View {
 //                }
 //            }
             
-            ZStack{
-                        
-                        Button{
-                            withAnimation{
-                                isShowingBottomSheet.toggle()
-                            }
-                        } label: {
-                            Text("Open Bottom Sheet")
-                        }
-                        
-                        BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
-                    }
+            CategoryListView()
+            
+//            ZStack{
+//                        
+//                        Button{
+//                            withAnimation{
+//                                isShowingBottomSheet.toggle()
+//                            }
+//                        } label: {
+//                            Text("Open Bottom Sheet")
+//                        }
+//                        
+//                        BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
+//                    }
         }
     }
 }

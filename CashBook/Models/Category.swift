@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
-struct Category
+struct Category: Codable, Identifiable
 {
-    var id: String = UUID().uuidString
+    @DocumentID var id: String?
     var title: String
+    @ServerTimestamp var createdTime: Timestamp?
 }
 
 #if DEBUG

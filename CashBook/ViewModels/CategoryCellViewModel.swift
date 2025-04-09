@@ -21,10 +21,14 @@ class CategoryCellViewModel: ObservableObject, Identifiable
         self.category = category
        // self.selected = selected
         
-        $category.map {
+        
+        
+        $category.compactMap {
             category in
             category.id
         }.assign(to: \.id, on: self)
          .store(in: &cancellable)
+        
+        
     }
 }
