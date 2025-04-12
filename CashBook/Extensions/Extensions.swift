@@ -56,3 +56,10 @@ extension Text {
         return self.font(.customFont(fontWeight ?? .regular, size ?? 16))
     }
 }
+
+
+extension TextField {
+    func customFont(_ fontWeight: FontWeight? = .regular, _ size: CGFloat? = nil) -> TextField {
+        return self.font(.customFont(fontWeight ?? .regular, size ?? 16)) as! TextField
+    }
+}

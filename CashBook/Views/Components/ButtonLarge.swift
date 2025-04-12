@@ -7,26 +7,37 @@
 
 import SwiftUI
 
-struct ButtonLarge: View {
+struct IconButton: View {
     
     var label: String
-    var background: Color = .white
-    var textColor: Color = .black.opacity(0.9)
+    var background: Color = .blue
+    var textColor: Color = .white.opacity(0.9)
     var action: (() -> ())
     
-    let cornorRadius: CGFloat = 8
+    let cornorRadius: CGFloat = 24
     
     var body: some View {
         Button {
             action()
         } label: {
-            HStack {
+            HStack{
+                Image(systemName: "plus")
+                
+                Spacer(minLength: 20)
+                    .frame(width:20)
+                
                 Text(label)
-                    .foregroundColor(textColor)
-                    .font(.system(size: 16, weight: .bold))
+                    .customFont(.semiBold, 16)
+                    //.font(.system(size: 16, weight: .bold))
                     .lineLimit(1)
+                
+                Spacer(minLength: 20)
+                    .frame(width:20)
             }
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+            .frame(height: 32)
+            .foregroundColor(textColor)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 6)
             .overlay(
                 RoundedRectangle(cornerRadius: cornorRadius)
                     .stroke(.gray.opacity(0.5), lineWidth: 1)
@@ -38,5 +49,5 @@ struct ButtonLarge: View {
 }
 
 #Preview {
-    ButtonLarge(label: "Text", action: {})
+    IconButton(label: "Add New Book", action: {})
 }

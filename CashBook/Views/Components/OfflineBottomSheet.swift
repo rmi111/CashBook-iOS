@@ -28,18 +28,18 @@ struct OfflineBottomSheet: View{
                 .foregroundColor(.black.opacity(0.7))
                 .padding(.bottom, 24)
             
-            ButtonLarge(label: "Snooz Availability", background: .pink.opacity(0.95), textColor: .white, action: {
+            IconButton(label: "Snooz Availability", background: .pink.opacity(0.95), textColor: .white, action: {
                 // Action will be here
             })
             .frame(height: buttonHeight)
             
-            ButtonLarge(label: "Go Offline", background: .gray.opacity(0.5), textColor: .white, action: {
+            IconButton(label: "Go Offline", background: .gray.opacity(0.5), textColor: .white, action: {
                 // Action will be here
             })
             .frame(height: buttonHeight)
             .padding(.vertical, 2)
             
-            ButtonLarge(label: "Stay Online", background: .orange.opacity(0.9), textColor: .white, action: {
+            IconButton(label: "Stay Online", background: .orange.opacity(0.9), textColor: .white, action: {
                 // Action will be here
             })
             .frame(height: buttonHeight)
