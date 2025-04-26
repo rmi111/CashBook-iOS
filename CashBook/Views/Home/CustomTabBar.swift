@@ -9,11 +9,18 @@ import SwiftUI
 
 enum Tab: String, CaseIterable
 {
-    case house
+    case home
     case message
-    case person
-    case leaf
     case gearshape
+    
+    var systemImage: String{
+        switch self{
+        case .home: return "house"
+        case .message: return "message"
+        case .gearshape: return "person"
+        //case .gearshape: return "gearshap"
+        }
+    }
 }
 
 struct CustomTabBar: View {
@@ -21,27 +28,23 @@ struct CustomTabBar: View {
     
     private var fillImage: String
     {
-        selectedTab.rawValue + ".fill"
+        selectedTab.systemImage + ".fill"
     }
     
     var body: some View 
     {
-        VStack{
+      
             HStack
             {
                 ForEach(Tab.allCases, id: \.rawValue){tab in
                     Spacer()
                     VStack{
                         
-                        Image(systemName: selectedTab == tab ? fillImage : tab.rawValue)
+                        Image(systemName: selectedTab == tab ? fillImage : tab.systemImage)
                             .scaleEffect(tab == selectedTab ? 1.25 : 1.0)
                             .foregroundStyle(.white)
-                            .font(.system(size: 22))
-                            .onTapGesture{
-                                withAnimation(.easeIn(duration: 0.1)){
-                                    selectedTab = tab
-                                }
-                            }
+                            .font(.system(size: 18))
+
                         if(selectedTab == tab){
                             Circle().frame(width:4)
                                 .padding(4)
@@ -49,18 +52,29 @@ struct CustomTabBar: View {
                         }
                       
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .contentShape(Rectangle())
+                    .onTapGesture{
+                        withAnimation(.easeIn(duration: 0.04)){
+                            selectedTab = tab
+                        }
+                    }
+                    
                     Spacer()
                 }
-            }.frame(width: nil, height: 100)
+            }
                 //.background(.thinMaterial)
-                .background(Color(hex:0x8799fd))
-                .cornerRadius(30)
-                .padding(0)
+            .frame(height: 90)
+            .padding(0)
+            .background(Color("ContainerColor"))
+               // .cornerRadius(30)
+              
+               // .frame(width: nil, height: 100)
             
-        }.padding(0)
+        
     }
 }
 
 #Preview {
-    CustomTabBar(selectedTab: .constant(.house))
+    CustomTabBar(selectedTab: .constant(.home))
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab: Tab = .house
+    @State private var selectedTab: Tab = .home
     @State private var selection: String?
     @State var isShowingBottomSheet = false
     

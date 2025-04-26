@@ -50,36 +50,6 @@
             endingLineNumber = "23"
             landmarkName = "loadData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4E287D6B-826C-435B-A821-B6A9281BAB88 - fe5b9261a3158054"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23">
-               </Location>
-               <Location
-                  uuid = "4E287D6B-826C-435B-A821-B6A9281BAB88 - ae133731dc3d547d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,36 +114,6 @@
             endingLineNumber = "29"
             landmarkName = "loadData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A896D283-8C18-4C88-AB99-F460C89268BC - 10a4e4f171ca08e9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;CashBook.Category&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29">
-               </Location>
-               <Location
-                  uuid = "A896D283-8C18-4C88-AB99-F460C89268BC - 10a4e4f171ca0906"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;CashBook.Category&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -206,36 +146,6 @@
             endingLineNumber = "20"
             landmarkName = "init()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7A2FA743-9C12-492B-B6E5-EAEE66525F92 - 37d288326dbd6c4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;CashBook.Category&gt;) -&gt; Swift.Array&lt;CashBook.CategoryCellViewModel&gt; in CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21">
-               </Location>
-               <Location
-                  uuid = "7A2FA743-9C12-492B-B6E5-EAEE66525F92 - 45462bcb9f2bd8c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CashBook.Category) -&gt; CashBook.CategoryCellViewModel in closure #1 (Swift.Array&lt;CashBook.Category&gt;) -&gt; Swift.Array&lt;CashBook.CategoryCellViewModel&gt; in CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -252,36 +162,6 @@
             endingLineNumber = "21"
             landmarkName = "init()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7A634C87-8178-4581-BDD4-91112C0AB3C1 - 37d288326dbd6c4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;CashBook.Category&gt;) -&gt; Swift.Array&lt;CashBook.CategoryCellViewModel&gt; in CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21">
-               </Location>
-               <Location
-                  uuid = "7A634C87-8178-4581-BDD4-91112C0AB3C1 - 45462bcb9f2bd8c4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CashBook.Category) -&gt; CashBook.CategoryCellViewModel in closure #1 (Swift.Array&lt;CashBook.Category&gt;) -&gt; Swift.Array&lt;CashBook.CategoryCellViewModel&gt; in CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -330,36 +210,6 @@
             endingLineNumber = "19"
             landmarkName = "init()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2D1E291D-C0ED-4936-8164-0D6A59E3A71A - 99de95b2530f9854"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19">
-               </Location>
-               <Location
-                  uuid = "2D1E291D-C0ED-4936-8164-0D6A59E3A71A - 37d288326dbd6c04"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;CashBook.Category&gt;) -&gt; Swift.Array&lt;CashBook.CategoryCellViewModel&gt; in CashBook.CategoryListViewModel.init() -&gt; CashBook.CategoryListViewModel"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/ViewModels/CategoryListViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -376,36 +226,6 @@
             endingLineNumber = "30"
             landmarkName = "loadData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "175528B8-5439-448E-9535-A101808893BF - 10a4e4f171ca0927"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;CashBook.Category&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31">
-               </Location>
-               <Location
-                  uuid = "175528B8-5439-448E-9535-A101808893BF - 10a4e4f171ca0906"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;CashBook.Category&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CashBook.CategoryRepository.loadData() -&gt; ()"
-                  moduleName = "CashBook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mdaminuzzaman/Public/Work/TechRealms/iOS/Cashbook-iOS/CashBook-iOS/CashBook/Respository/CategoryRepository.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

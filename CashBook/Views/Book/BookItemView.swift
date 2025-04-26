@@ -12,31 +12,35 @@ struct BookItemView: View {
         HStack{
             Image("book")
               .resizable()
-              .frame(width: 15, height: 15)
+              .frame(width: 25, height: 25)
               .foregroundColor(.blue)
-              .padding(6)
+              .padding(8)
               .background(Color("IconColor"))
               .clipShape(Circle())
             
             VStack(alignment:.leading)
             {
                 Text("January Expenses")
-                    .customFont(.bold, 13)
+                    .customFont(.bold, 14)
+                    .foregroundStyle(Color("FontColor"))
                 
                 Text("Updated on Jan 21 2024")
-                    .customFont(.regular, 10)
+                    .customFont(.medium, 12)
                     .foregroundStyle(.gray)
                     
             }
+            .padding(.horizontal, 8)
+            
             Spacer()
             
             Text("10000")
-                .customFont(.regular, 12)
-                .foregroundStyle(.green)
+                .customFont(.bold, 14)
+                .foregroundStyle(Color("Green"))
         }
         .frame(height: 70)
-        .padding(8)
-        .background(.white)
+        .padding(.horizontal, 14)
+        .padding(.vertical, 8)
+        .background(Color("RowColor"))
         .cornerRadius(8)
     }
 }

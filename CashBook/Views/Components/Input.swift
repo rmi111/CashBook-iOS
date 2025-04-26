@@ -22,9 +22,9 @@ struct SearchField: View{
             Image(systemName: "line.3.horizontal.decrease")
         }.frame(height: 50)
             .padding(.horizontal, 16)
-            .background(Color.white)
+            .background(Color("Primary"))
             .cornerRadius(10)
-            .foregroundStyle(.gray)
+            .foregroundStyle(Color("Secondary"))
 
     }
 }
@@ -120,6 +120,7 @@ struct SecureTextField: View{
     
     HStack{
         CustomSecureField("Enter your password", text: .constant(""))
+        //SearchField()
     }
     .padding(8)
     .background(Color.black)
