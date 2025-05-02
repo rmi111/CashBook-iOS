@@ -38,7 +38,9 @@ struct Home: View {
                             .padding(0)
                             .edgesIgnoringSafeArea(.all)
         
-                                BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
+                            //BottomSheet(isShowing: $isShowingBottomSheet, content: BottomSheetType.offline.view())
+                    }.bottomSheet(isShowing: $isShowingBottomSheet) {
+                        OfflineBottomSheet()
                     }
        
     }

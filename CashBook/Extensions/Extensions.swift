@@ -63,3 +63,16 @@ extension TextField {
         return self.font(.customFont(fontWeight ?? .regular, size ?? 16)) as! TextField
     }
 }
+
+
+extension View {
+    func bottomSheet<SheetContent: View>(
+        isShowing: Binding<Bool>,
+        @ViewBuilder content: @escaping () -> SheetContent
+    ) -> some View {
+        self
+            .overlay(
+                BottomSheet(isShowing: isShowing, content: content)
+            )
+    }
+}
