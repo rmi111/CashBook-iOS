@@ -9,6 +9,7 @@ import SwiftUI
 import FirebaseCore
 import FirebaseFirestore
 import FirebaseAuth
+import GoogleSignIn
 
 
 class AppDelegate: NSObject, UIApplicationDelegate
@@ -17,10 +18,16 @@ class AppDelegate: NSObject, UIApplicationDelegate
                    didFinishLaunchingWithOptions
                    launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool
   {
-    FirebaseApp.configure()
+  
 
     return true
   }
+    
+    func application(_ app: UIApplication,
+                     open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+      return GIDSignIn.sharedInstance.handle(url)
+    }
 }
 
 @main
@@ -28,10 +35,23 @@ struct CashBookApp: App {
   // register app delegate for Firebase setup
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 
+    @State var databaseViewModel: DatabaseViewModel
+    @State var authViewModel: AuthViewModel
+    
+    init() {
+        FirebaseApp.configure()
+   
+        self.databaseViewModel = DatabaseViewModel()
+        self.authViewModel = AuthViewModel()
+      
+    }
+    
   var body: some Scene {
     WindowGroup {
       NavigationView {
-          Home()
+          SignUpView()
+              .environment(authViewModel)
+              .environment(databaseViewModel)
       }
     }
   }

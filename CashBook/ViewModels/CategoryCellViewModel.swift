@@ -6,29 +6,51 @@
 //
 
 import Foundation
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
 import Combine
 
-class CategoryCellViewModel: ObservableObject, Identifiable
-{
-    @Published var category: Category
-    @Published var selected: Category?
+@Observable
+class DatabaseViewModel {
     
-    var id = ""
-    private var cancellable = Set<AnyCancellable>()
+    enum OperationStatus {
+        case notStarted
+        case fetching
+        case success
+        case failed
+    }
     
-    init(category: Category)
-    {
-        self.category = category
-       // self.selected = selected
+    private(set) var fetchStatus: OperationStatus = .notStarted
+
+    private var categoryListener: ListenerRegistration?
+
+    // Local categories (default categories in app + user-specific categories)
+    var categories: [Category] = CategoryRepository.shared.categories
+
+    // Load categories with real-time listener
+    func loadCategories(user: User?) {
+        fetchStatus = .fetching
+
+        // Remove any existing listener before adding a new one
+        categoryListener?.remove()
         
+        let userId = user?.uid ?? "anonymous"
         
-        
-        $category.compactMap {
-            category in
-            category.id
-        }.assign(to: \.id, on: self)
-         .store(in: &cancellable)
-        
-        
+        categoryListener = CategoryRepository.shared.fetchCategoriesWithListener(for: userId) { [weak self] (categories, error) in
+            guard let self = self else { return }
+
+            if let error = error {
+                self.fetchStatus = .failed
+                print("Error fetching categories: \(error.localizedDescription)")
+                return
+            }
+
+            self.fetchStatus = .success
+            if let categories = categories {
+                self.categories = categories
+            }
+        }
     }
 }
+
